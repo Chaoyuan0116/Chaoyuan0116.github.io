@@ -1,22 +1,22 @@
 @font-face{
   font-family: "Abhaya-Bold";
-  src:url("../font/AbhayaLibre-Bold.ttf");
+  src:url("/font/AbhayaLibre-Bold.ttf");
 }
 @font-face{
   font-family: "Abhaya-ExtraBold";
-  src:url("../font/AbhayaLibre-ExtraBold.ttf");
+  src:url("/font/AbhayaLibre-ExtraBold.ttf");
 }
 @font-face{
   font-family: "Abhaya-Medium";
-  src:url("../font/AbhayaLibre-Medium.ttf");
+  src:url("/font/AbhayaLibre-Medium.ttf");
 }
 @font-face{
   font-family: "Abhaya-Regular";
-  src:url("../font/AbhayaLibre-Regular.ttf");
+  src:url("/font/AbhayaLibre-Regular.ttf");
 }
 @font-face{
   font-family: "Abhaya-SemiBold";
-  src:url("../font/AbhayaLibre-SemiBold.ttf")
+  src:url("/font/AbhayaLibre-SemiBold.ttf")
 }
 body{
   margin:0;
