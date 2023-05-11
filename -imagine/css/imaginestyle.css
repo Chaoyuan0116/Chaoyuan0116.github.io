@@ -62,7 +62,7 @@ body{
 }
 .content{
     width: 100%;
-    height: 1333px;
+    height: 1666px;
     margin-top: 0;
     background-color:transparent;
 }
@@ -86,12 +86,12 @@ body{
 .cardname{
     width: 80%;
     height: 30px;
-    background-color: blue;
+    background-color: white;
     margin: 0 auto;
 }
 .cardintro{
     width: 80%;
     height: 30px;
-    background-color: green;
+    background-color: white;
     margin: 0 auto;
 }
