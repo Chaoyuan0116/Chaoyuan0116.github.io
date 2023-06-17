@@ -11,23 +11,24 @@ const loadingBarElement = document.querySelector('.loading-bar')
 const bodyElement = document.querySelector('body')
 const loadingManager = new THREE.LoadingManager(
     () => {
+        document.getElementById("loading").style.opacity="0"
         window.setTimeout(() => {
             gsap.to(overlayMaterial.uniforms.uAlpha, {
-                duration: 3,
+                duration: 1,
                 value: 0,
-                delay: 1
+                delay: 0.1
             })
             gsap.to(overlayMaterial.uniforms.uAlpha, {
-                duration: 3,
+                duration: 1,
                 value: 0,
-                delay: 1
+                delay: 0.1
             })
 
             loadingBarElement.classList.add('ended')
             bodyElement.classList.add('loaded')
             loadingBarElement.style.transform = ''
 
-        }, 500)
+        }, 0)
     },
     (itemUrl, itemsLoaded, itemsTotal) => {
         console.log(itemUrl, itemsLoaded, itemsTotal)
@@ -36,7 +37,6 @@ const loadingManager = new THREE.LoadingManager(
         console.log(progressRatio)
     },
     () => {
-
     }
 )
 const gltfLoader = new THREE.GLTFLoader(loadingManager)
@@ -144,7 +144,7 @@ scene.add(directionalLight2)
  * Sizes
  */
 const sizes = {
-    width: window.innerWidth*0.6,
+    width: window.innerWidth*0.65,
     height: window.innerHeight
 }
 
