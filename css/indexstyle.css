@@ -34,9 +34,8 @@ body {
     height: 100%;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
-    /* background-image:url(../image/2imgbackgroundtrans.png); */
+    background-image:url(../image/mywebbackground.png);
     background-size: cover;
-    background-color: black;
 }
 
 body.loaded {
@@ -130,7 +129,14 @@ section .container {
     display: flex;
     flex-direction: row;
 }
-
+.bannerwordemail
+{
+    display: flex;
+    flex-direction: row;
+}
+.bannerwordemail:hover .email{
+    color: #fff;
+}
 .logo{
     display: flex;
 }
@@ -150,5 +156,6 @@ a{
 }
 
 a:hover{
+    background-color: black;
     color: #0047ff;
 }
