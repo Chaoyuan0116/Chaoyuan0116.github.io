@@ -152,10 +152,9 @@ section .container {
 
 a{
     text-decoration: none;
-    color: #fff
+    color: #fff;
 }
 
 a:hover{
-    background-color: black;
     color: #0047ff;
 }
