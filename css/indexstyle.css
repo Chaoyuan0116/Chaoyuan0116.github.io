@@ -98,6 +98,7 @@ header.sticky ul li a {
     top: 0;
     left: 0;
     outline: none;
+    background-color: transparent;
 }
 
 section {
