@@ -242,4 +242,8 @@ a:hover{
       transform: scale(1.5);
     }
   }
+
+  .link:hover {
+    color: white
+  }
   
